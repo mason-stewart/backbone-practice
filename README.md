@@ -1,3 +1,3 @@
-## Circle Destroyer.
+### Not a real project...
 
-### [omg](http://masondesu.github.io/circle-destroyer/)
+...just a quick scratch repo that resulted from live-coding responses to students questions during a Backbone Q&A. YMMV!
