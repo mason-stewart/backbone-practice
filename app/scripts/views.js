@@ -7,12 +7,13 @@ GridItemView = Backbone.View.extend({
   className: 'item-grid-unit',
 
   initialize: function(){
+    console.log('BOOOOOOOOOOOM!')
     $('.container').append(this.el)
     this.render()
   },
 
   render: function(){
-    this.$el.attr('href', "#/items/"+ this.model.get('id') )
+    this.$el.attr('href', "#/items/"+ this.model.get('_id') )
     this.$el.append( this.template({item: this.model }) )
   }
 })
